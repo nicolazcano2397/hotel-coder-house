@@ -80,7 +80,7 @@ header nav ul li a {
   transition: color 0.3s;
 }
 header nav ul li a:hover {
-  color: #DDAA00;
+  color: #dd0000;
 }
 @media (max-width: 767px) {
   header nav ul {
@@ -93,15 +93,18 @@ header nav ul li a:hover {
 footer {
   background-color: #013D5A;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 2rem;
 }
 footer p {
   font-size: 0.9rem;
   margin: 0;
 }
+footer h5 {
+  color: white;
+}
 footer a {
-  color: #DDAA00;
+  color: #dd0000;
 }
 footer a:hover {
   text-decoration: underline;
@@ -160,7 +163,7 @@ footer a:hover {
   transition: background-color 0.3s ease;
 }
 .btn:hover {
-  background-color: #DDAA00;
+  background-color: #dd0000;
   color: #333;
 }
 .btn--secundario {
