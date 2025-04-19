@@ -1,0 +1,37 @@
+/* scss/layout/_header.scss */
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+header {
+  background-color: variables.$color-primario;
+  padding: variables.$espaciado-sm;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: variables.$espaciado-sm;
+
+      li a {
+        color: white;
+        font-weight: 500;
+        transition: color 0.3s;
+
+        &:hover {
+          color: variables.$color-acento;
+        }
+      }
+    }
+  }
+
+  @include mixins.mobile {
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}

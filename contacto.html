@@ -14,7 +14,7 @@
 
  <!-- NAVBAR -->
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 custom-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark py-3 custom-navbar">
     <div class="container d-flex align-items-center justify-content-between">
       
       <!-- Logo a la izquierda -->
@@ -64,62 +64,66 @@
 </header>
 
   <!-- BANNER -->
-  <section class="banner-overlay">
-    <div class="container contenido py-5">
+<section id="hero-contacto">
+  <div class="overlay">
+    <div class="container px-4">
       <h1 class="display-4 fw-bold">CONTACTO</h1>
       <p class="lead">Prepara tu visita a Rapa Nui</p>
     </div>
-  </section>
-  
+  </div>
+</section>
 
-  <!-- FORMULARIO & INFO -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row">
-        <!-- FORMULARIO -->
-        <div class="col-md-7 mb-4">
-          <h5 class="mb-4 text-uppercase fw-bold">Estamos encantados en ayudarte</h5>
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre *</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
-            </div>
-            <div class="mb-3">
-              <label for="correo" class="form-label">Correo electrónico *</label>
-              <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com" required>
-            </div>
-            <div class="mb-3">
-              <label for="telefono" class="form-label">Teléfono *</label>
-              <input type="tel" class="form-control" id="telefono" placeholder="Número Teléfono" required>
-            </div>
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje *</label>
-              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-azul">Enviar</button>
-          </form>
-        </div>
+<!-- FORMULARIO + INFORMACIÓN -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center align-items-start contacto-wrapper">
 
-        <!-- INFORMACIÓN -->
-        <div class="col-md-5">
-          <div class="bg-white p-4 shadow-sm rounded">
-            <h6 class="fw-bold mb-3">Información Contacto:</h6>
-            <p class="mb-1 small">
-              ¿Tienes alguna petición especial? ¿Quieres organizar una aventura específica, necesitas asistencia especial durante tu estancia o tienes curiosidad sobre Rapa Nui?
-            </p>
-            <p class="mb-1 small">Ponte en contacto con nuestro equipo:</p>
-            <p class="mb-1 fw-bold small">+56 9 3391 4780<br>+56 9 7603 5591</p>
-            <p class="small mb-1">reservas@harenua.cl</p>
-            <p class="small">Atamu Tekena s/n, Hanga Roa, 2770000</p>
-            <div class="mt-3">
-              <a href="#" class="text-dark me-3"><i class="bi bi-facebook fs-5"></i></a>
-              <a href="#" class="text-dark"><i class="bi bi-instagram fs-5"></i></a>
-            </div>
+      <!-- FORMULARIO -->
+      <div class="col-lg-6 col-md-10 mb-4 formulario-contacto">
+        <h5 class="mb-4 text-uppercase fw-bold">Estamos encantados en ayudarte</h5>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre *</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo electrónico *</label>
+            <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono *</label>
+            <input type="tel" class="form-control" id="telefono" placeholder="Número Teléfono" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje *</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-azul">Enviar</button>
+        </form>
+      </div>
+
+      <!-- INFORMACIÓN -->
+      <div class="col-lg-5 col-md-10 mb-4">
+        <div class="bg-white p-4 shadow-sm rounded contacto-info">
+          <h6 class="fw-bold mb-3">Información Contacto:</h6>
+          <p class="mb-1 small">
+            ¿Tienes alguna petición especial? ¿Quieres organizar una aventura específica, necesitas asistencia especial durante tu estancia o tienes curiosidad sobre Rapa Nui?
+          </p>
+          <p class="mb-1 small">Ponte en contacto con nuestro equipo:</p>
+          <p class="mb-1 fw-bold small">+56 9 3391 4780<br>+56 9 7603 5591</p>
+          <p class="small mb-1">reservas@harenua.cl</p>
+          <p class="small">Atamu Tekena s/n, Hanga Roa, 2770000</p>
+          <div class="mt-3">
+            <a href="#" class="text-dark me-3"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-instagram fs-5"></i></a>
           </div>
         </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- MAPA -->
   <section class="pb-5">

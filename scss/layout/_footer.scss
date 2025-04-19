@@ -1,0 +1,24 @@
+/* scss/layout/_footer.scss */
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+footer {
+  background-color: variables.$color-primario;
+  color: white;
+  text-align: center;
+  padding: variables.$espaciado-md;
+
+  p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  a {
+    color: variables.$color-acento;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+

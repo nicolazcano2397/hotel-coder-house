@@ -1,0 +1,81 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.hero {
+  background-image: url('../../Img-hotel/banner-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: variables.$espaciado-lg variables.$espaciado-sm;
+  text-align: center;
+  color: white;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-top: variables.$espaciado-sm;
+  }
+
+  .btn {
+    margin-top: variables.$espaciado-sm;
+  }
+
+  @include mixins.mobile {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+.habitaciones {
+  padding: variables.$espaciado-lg variables.$espaciado-sm;
+
+  h2 {
+    color: variables.$color-primario;
+    margin-bottom: variables.$espaciado-md;
+  }
+
+  .grid {
+    gap: variables.$espaciado-md;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .contenido {
+      padding: variables.$espaciado-sm;
+      text-align: center;
+
+      h3 {
+        margin-bottom: variables.$espaciado-xs;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+
+      .btn {
+        margin-top: variables.$espaciado-xs;
+      }
+    }
+  }
+}
