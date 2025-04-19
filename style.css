@@ -37,6 +37,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #F4F4F4;
+  line-height: 1.2;
+}
+
 p {
   margin-bottom: 1rem;
 }

@@ -12,6 +12,13 @@ body {
     color: variables.$color-primario;
     line-height: 1.2;
   }
+
+  h1 {
+    font-family: variables.$fuente-principal;
+    font-weight: bold;
+    color: variables.$color-secundario;
+    line-height: 1.2;
+  }
   
   p {
     margin-bottom: variables.$espaciado-sm;
