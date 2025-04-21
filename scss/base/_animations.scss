@@ -64,3 +64,24 @@
 .fade-up.delay-4 { animation-delay: 0.9s; }
 .fade-up.delay-5 { animation-delay: 1.1s; }
 .fade-up.delay-6 { animation-delay: 1.3s; }
+@keyframes slideInLeft {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.slide-in-left {
+  opacity: 0;
+  animation: slideInLeft 1s ease-out forwards;
+  will-change: opacity, transform;
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.slide-in-right {
+  opacity: 0;
+  animation: slideInRight 1s ease-out forwards;
+  will-change: opacity, transform;
+}
