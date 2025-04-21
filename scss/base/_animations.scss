@@ -1,3 +1,5 @@
+@use '../abstracts/variables';
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -94,4 +96,11 @@
   opacity: 0;
   animation: slideInRight 3.4s ease-out forwards;
   will-change: opacity, transform;
+}
+
+
+@each $name, $time in variables.$delays {
+  .#{$name} {
+    animation-delay: $time;
+  }
 }
