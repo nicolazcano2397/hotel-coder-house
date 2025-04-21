@@ -147,6 +147,10 @@ button {
   cursor: pointer;
 }
 
+body {
+  padding-top: 130px;
+}
+
 /* scss/base/_reset.scss */
 * {
   margin: 0;
@@ -177,6 +181,12 @@ a {
 header {
   background-color: #013D5A;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out;
 }
 header nav {
   display: flex;
