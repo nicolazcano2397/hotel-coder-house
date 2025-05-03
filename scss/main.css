@@ -677,3 +677,7 @@ footer a:hover {
 .cta-habitaciones {
   color: #F4F4F4;
 }/*# sourceMappingURL=main.css.map */
+
+.sobre-hotel .row {
+  min-height: 500px;
+}
