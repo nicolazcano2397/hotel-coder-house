@@ -42,4 +42,4 @@ Sitio web responsive y optimizado para el Hotel Hare Nua, ubicado en Rapa Nui (I
 
 ## Ver sitio en vivo
 
-[Para ver online el sitio desplegado en GitHub Pages](https://nicolazcano2397.github.io/hotel-rapa-nui/)
+[Para ver online el sitio desplegado en GitHub Pages](https://nicolazcano2397.github.io/hotel-coder-house/)
